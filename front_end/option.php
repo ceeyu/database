@@ -24,7 +24,7 @@
               <div class="col-5 bar">
                 <form >
                   <br/>
-                  <input class="form-control me-1" type="search" placeholder="例:工程師" aria-label="Search" size="50">
+                  <input class="form-control me-1" type="search" placeholder="例:工程師" aria-label="Search" size="50" onkeyup='saveValue(this);'>
               </form>
           </div>
   
@@ -44,18 +44,18 @@
       <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"></path>
     </svg> -->
                     <div class="btn-group " >
-                         <button type="button" class="btn btn-outline-warning">
+                         <button type="button" class="btn btn-outline-warning" onclick="location.href='option.php'">
                               <i class="bi bi-stack"></i>
                          </button>
 
       
-                         <button type="button" onclick="location.href='首頁.html'" class="btn btn-outline-warning"> 
+                         <button type="button" onclick="location.href='home.php'" class="btn btn-outline-warning"> 
                          首頁
                          <!-- <span class="visually-hidden">Button</span> -->
                          </button>
 
      
-                         <button onclick="location.href='管理者登入.html'" type="button" class="btn btn-outline-warning">
+                         <button onclick="location.href='login.php'" type="button" class="btn btn-outline-warning">
                               管理者登入
                          <span class="visually-hidden">Button</span>
                          </button>

@@ -25,8 +25,7 @@
                <div class="col-5 bar">
                     <form>
                          <br />
-                         <input class="form-control me-1" type="search" placeholder="例:工程師" aria-label="Search"
-                              size="50">
+                         <input class="form-control me-1" type="search" placeholder="例:工程師" aria-label="Search" size="50" onkeyup='saveValue(this);'>
                     </form>
                </div>
 

@@ -85,10 +85,7 @@
 
     <div class="row">
      <div class="alert alert-warning" role="alert" style="text-align: center;">
-          <h5 class="campus">學歷要求</h5>
-          <hr>
-               <p class="campus">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-          <hr>
+          
           <h5 class="paid">薪水</h5>
           <hr>
                <p class="paid">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>

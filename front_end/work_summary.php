@@ -75,45 +75,54 @@
 
     <!-- 資訊列 -->
     <div class="row">
-        <div class="card text text-center radius-block " style="margin-top:16px">
-              <!-- <a herf="工作內容.html" > -->
-                <div class="card-header  " style="background-color: rgb(242, 197, 91)">
-                  <a style="color: black; text-decoration:none;" href="work_contence.php" >工作名稱</a>
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class="col-10">
+        <div class="card text text-center radius-block" style="margin-top:16px">
+                      <div class="card-header" style="background-color: rgb(242, 197, 91);font-size:130%" onclick="location.href='work_contence.php'">
+                            工作名稱
+                      </div>
+                
+                    <div class="card-body " style="font-size:120%;text-align:left">
+                        <p class="card-title">公司: <span class="company">連結公司表格</span></h5>
+                        <br>
+                        <b class="card-text">地點: <span class="place">連結地址表格</span></b>  
+                        <p class="salary">薪水: <span class="badge rounded-pill bg-warning text-dark" style="font-size:100%">連結薪水表格</span></p>
+                        
+                        <p class="contence">這裡是工作內容</p>
+                    </div>
+                  
                 </div>
-              <!-- </a> -->
-
-            <div class="card-body ">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
+      </div>
+        
     </div>
-
     <div class="row">
-        <div class="card text text-center radius-block" style="margin-top:16px">
-              <div class="card-header" style="background-color: rgb(242, 197, 91);">
-                    工作名稱
-              </div>
+      <div class="col-1">
 
-            <div class="card-body ">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
+      </div>
+      <div class="col-10">
+        <div class="card text text-center radius-block" style="margin-top:16px">
+                      <div class="card-header" style="background-color: rgb(242, 197, 91);font-size:130%" onclick="location.href='work_contence.php'">
+                            工作名稱
+                      </div>
+                
+                    <div class="card-body " style="font-size:120%;text-align:left">
+                        <p class="card-title">公司<span class="company">連結公司表格</span></h5>
+                        <br>
+                        <b class="card-text">地點: <span class="place">連結地址表格</span></b>  
+                        <p class="salary">薪水: <span class="badge rounded-pill bg-warning text-dark" style="font-size:100%">連結薪水表格</span></p>
+                    
+                        <p class="contence">這裡是工作內容</p>
+                    </div>
+                  
+                </div>
+      </div>
+        
     </div>
 
-    <div class="row">
-        <div class="card text text-center radius-block" style="margin-top:16px">
-              <div class="card-header" style="background-color: rgb(242, 197, 91);">
-                    工作名稱
-              </div>
-
-            <div class="card-body ">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
-    </div>
+    
     
     
 </div>
