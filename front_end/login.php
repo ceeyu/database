@@ -53,7 +53,7 @@
                                    </div>
                                    <br/>
                                    <div class="submit" style="text-align:center">
-                                   <button type="submit" class="btn btn-outline-warning button" style="width: 200px;">登入</button>
+                                   <button type="submit" class="btn btn-outline-warning button" style="width: 200px;" onclick= "location.href='insertwork.php'">登入</button>
                                    </div>
                               </div>
                     </div>
