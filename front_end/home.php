@@ -59,7 +59,7 @@
      <!-- <span class="visually-hidden">Button</span> -->
    </button>
    <button type="button" class="btn btn-outline-warning" onclick="location.href='login.php'">
-     管理者登入
+     管理者介面
      <span class="visually-hidden">Button</span>
    </button>
  </div>
