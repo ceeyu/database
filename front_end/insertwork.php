@@ -71,32 +71,47 @@
                          <div class="card-body" > 
                                  
                               <br/>
-                              <h3 style="text-align:center">工作新增</h3>
+                              <h3 style="text-align:center">新增</h3>
                               <br>
                               <div class="form-input mb-3" style="text-align:center" id="worktable">
                                    <div>
                                    <span >資料表</span>
                                    <select>
                                         <option>選擇資料表</option>
-                                        <option>Address</option>
-                                        <option>Company_ok</option>
-                                        <option>Contactperson_ok</option>
-                                        <option>Course</option>
-                                        <option>Job</option>
-                                        <option>Type</option>
+                                        
                                    </select>
-                                   </div>
-
-                                   <br>
-
-                                   <div>
+                                   
+                                   <div style="display:inline-block">
                                    <span >屬性</span>
                                    <select>
                                         <option>選擇屬性</option>
                                    </select>
                                    </div>
+
+                                   <button type="submit" class="btn btn-outline-warning button" style="width: 100px;">確認</button>
+                                   </div>
+
+
+                                   <div class="form-input mb-3" style="text-align:center" id="worktable">
+                                   <div>
+                                   <table cellspacing=1px>
+                                        <tr>
+                                             <!-- for迴圈載入 -->
+                                                            <td>屬性對應</td>
+                                        <tr>
+                                   
+                                        <tr>
+												<td>
+													<input type="text" size='13px' name="job_id[]" value="<?php echo $row['job_id']; ?> "readonly="readonly">
+												</td>
+                                        <tr>
+
+
+
+                                   <br>
+
                               </div>
-                         
+                              <br>
                          <div class="form-input mb-3" style="text-align:center">
                               <span>內容</span><!-- icon -->
                               <input type="text" name="content" placeholder="請輸入內容" >
