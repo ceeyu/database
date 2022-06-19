@@ -34,7 +34,7 @@
                 </li>
 
                 <li class="nav-brand">
-                  <a class="nav-link navbar-fixed" href="#" >工作</a>
+                  <a class="nav-link navbar-fixed" href="updatework.php" >工作</a>
                 </li>
 
                 <li class="nav-brand">
@@ -70,7 +70,7 @@
                     
                                  
                               <br/>
-                              <h3 style="text-align:center">工作修改</h3>
+                              <h3 style="text-align:center">就業輔導修改</h3>
                               <br>
 
 
@@ -103,20 +103,19 @@
                                    <div>
                                    <table cellspacing=1px>
                                    <tr>
-											<td>工作ID:</td>
-											<td>工作名稱:</td>
-											<td>工作內容:</td>
-											<td>技能ID:</td>
-											<td>公司ID:</td>
-											<td>聯絡人ID:</td>
+											<td>課程ID:</td>
+											<td>課程名稱:</td>
+											<td>登入日期:</td>
+											<td>課程日期:</td>
+											<td>課程電話:</td>
+											<td>課程網站:</td>
 
-                                                       <td>工作地址:</td>
-                                                       <td>工作地區:</td>
-                                                       <td>工作時間:</td>
-                                                       <td>工作種類:</td>
-                                                       <td>薪水模式:</td>
-                                                       <td>最低薪水:</td>
-                                                       <td>最高薪水:</td>
+                                                       <td>課程價錢:</td>
+                                                       <td>課程種類:</td>
+                                                       <td>技能:</td>
+                                                       <td>課程地區:</td>
+                                                       <td>課程地址:</td>
+                                                   
 										</tr>
 
                                                   <!-- <?php
@@ -127,71 +126,55 @@
 
 											<tr>
 												<td>
-													<input type="text" size='13px' name="job_id[]" value="<?php echo $row['job_id']; ?> "readonly="readonly">
+													<input type="text" size='13px' name="course_ID[]" value="<?php echo $row['job_id']; ?> "readonly="readonly">
 												</td>
 												<td>
-													<input type="text"size='13px' name="job_name[]" value="<?php echo $row['job_name']; ?>"readonly="readonly">
+													<input type="text"size='13px' name="course_name[]" value="<?php echo $row['job_name']; ?>"readonly="readonly">
 												</td>
 												<td>
-													<input type="text"size='13px' name="job_description[]" value="<?php echo $row['job_description']; ?>"readonly="readonly">
+													<input type="text"size='13px' name="sign_date[]" value="<?php echo $row['job_description']; ?>"readonly="readonly">
+												</td>
+                                                            <td>
+													<input type="text"size='13px' name="course_date[]" value="<?php echo $row['job_description']; ?>"readonly="readonly">
+												</td>
+                                                            
+                                                            <td>
+													<input type="text"size='13px' name="course_phone[]" value="<?php echo $row['work_place']; ?>">
+												</td>
+												
+                                                            <td>
+													<input type="text"size='13px' name="course_website[]" value="<?php echo $row['work_place']; ?>">
+												</td>
+                                                            <td>
+													<input type="text"size='13px' name="course_price[]" value="<?php echo $row['work_time']; ?>"readonly="readonly">
 												</td>
 												<td>
-                          <select >
-                              <option >選擇資料表</option>
-                              <option >填寫資料</option>
-                          </select>
-												</td>
-												<td>
-                          <select >
-                              <option >選擇資料表</option>
-                              <option >填寫資料</option>
-                          </select>
+                                                                 <select >
+                                                                      <option >選擇資料表</option>
+                                                                      <option >填寫資料</option>
+                                                                 </select>
 
-													<!-- <input type="text"size='13px' name="company_name[]" value="<?php echo $row['company_name']; ?>"readonly="readonly"> -->
-												</td> 
-												<td>
-                          <select >
-                              <option >選擇資料表</option>
-                              <option >填寫資料</option>
-                          </select>
-
-													<!-- <input type="text"size='13px' name="contact_id[]" value="<?php echo $row['contact_id']; ?>"> -->
 												</td>
-												<td>
-													<input type="text"size='13px' name="job_place[]" value="<?php echo $row['work_place']; ?>">
-												</td>
+												
                          
 												<td> 
-                          <select >
-                              <option >選擇資料表</option>
-                              <option >填寫資料</option>
-                          </select>
-													<!-- <input type="text"size='13px' name="job_district[]" value="<?php echo $row['work_district']; ?>"readonly="readonly"> -->
+                                                                 <select >
+                                                                      <option >選擇資料表</option>
+                                                                      <option >填寫資料</option>
+                                                                 </select>
 												</td>
+												
 												<td>
-													<input type="text"size='13px' name="job_time[]" value="<?php echo $row['work_time']; ?>"readonly="readonly">
+                                                                 <select >
+                                                                 <option >選擇資料表</option>
+                                                                 <option >填寫資料</option>
+                                                                 </select>
 												</td>
+            
 												<td>
-                              <select >
-                                  <option >選擇資料表</option>
-                                  <option >填寫資料</option>
-                              </select>
-												<!-- <input type="text"size='13px' name="job_classification[]" value="<?php echo $row['job_classification']; ?>"readonly="readonly"> -->
+													<input type="text"size='13px' name="course_address[]" value="<?php echo $row['min_wage']; ?>">
 												</td>
-												<td>
-                              <select >
-                                  <option >選擇資料表</option>
-                                  <option >填寫資料</option>
-                              </select>
-													<!-- <input type="text"size='13px' name="pay_period[]" value="<?php echo $row['pay_period']; ?>"readonly="readonly"> -->
-												</td> 
-												<td>
-													<input type="text"size='13px' name="min_wage[]" value="<?php echo $row['min_wage']; ?>">
-												</td>
-												<td>
-													<input type="text"size='13px' name="max_wage[]" value="<?php echo $row['max_wage']; ?>">
-												</td>
-												<td>
+                                                            <td>
 													<button class="btn btn-danger" style="width:70px" type="submit" name="<?php echo 'd'.$temp ?>"value="<?php echo $num; ?>" onclick='onDeleteButton()'>刪除</button>
 												</td>
                                                             
